@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+<body>
+    <nav >
+        <div class="nav-name" >
+            <a href="#Profile"><h1>Aditkrishna S</h1></a>
+        </div>
+        <div class="bar">
+            <ul  class="nav-bar">
+                <li><a class="link" href="#About">About Me</a></li>
+                <li><a class="link" href="#projects">Projects</a></li>
+                <li><a class="link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="Profile">
+        <div class="section-text">
+            <p class="text-name">Hi, I'm</p>
+            <h1 class="name">Aditkrishna S</h1>
+            <p class="text-job">Web Developer</p>
+            <div class="bnt-row">
+            <button class="btn btn-cv"
+            onclick="window.open('./scr/MYResume.pdf')">
+            Downlode CV
+            </button>
+            <button class="btn bnt-contact"
+            onclick="location.href=('#contact')">
+            Contact For
+            </button>
+            </div>
+            <div id="social-link">
+                <img src="./scr/LInkedin.png" alt="LInkedin logo" class="icon" onclick="window.open('https://www.linkedin.com/in/adithkrishna-shanmugam-9bb870167/', '_blank');" />
+
+                <img src="./scr/github.png" alt="Github logo" class="icon" onclick="window.open('https://github.com/adithkrishnaa/', '_blank');" />
+
+            </div>
+        </div>
+        <div class="section-pic">
+            <img src="./scr/profile.png"  alt="Adithkrishna Profile Pic" />
+        </div>
+    </section>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./scr/profile.png" alt="profil pic" class="about-pic">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-titel">About Me</h2>
+                    <p>A skilled front-end developer in developing and implementing user interfaces for web applications. Proven
+                        ability to collaborate with designers and back-end developers to create responsive, user-friendly web
+                        applications.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('eduction')">Education</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('skill')">Skills</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="eduction">
+                        <ul>
+                            <li><span>SSLC</span><br>Venkateshwara Vidhyalaya Matric Hr.Sec School.</li>
+                            <li><span>HSC</span><br>Venkateshwara Vidhyalaya Matric Hr.Sec School.</li>
+                            <li><span>Bachelor Of Engineering In Electrical And Electronics Engineering</span><br>KPR Institute of Engineering and Technology</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>Trainee Engineer</span><br>Tiruppur Smart City Limited, Tiruppur.<span>11/21 - 05/23</span></li>
+                            <span>
+                                • Monitored the ongoing project, evaluated project performance, and improved quality.
+                                <br>
+                                • Lead a team for collecting data and analysis and conduct event for organization for awareness.</span>
+                            <li><span>IT & Web Developer</span><br>BasketHunt Pvt Ltd.<span>10/23 - 12/23</span></li>
+                            <span>
+                                • Developed a web application as a front-end developer with React framework.
+                                <br>
+                                • Will give input for improve user interface for the developing project.</span>
+                        </ul>
+                    </div>                
+                    <div class="tab-contents " id="skill">
+                        <ul>
+                            <li><span>Personal Skills</span><br>Problem-solving, analytical skills, quick learner.</li>
+                            <li><span>Frontend Development </span><br>HTML5,CSS3, JavaScript, ReactJS, TypeScript.</li>
+                            <li><span>Backend Development </span><br>Python, Java.</li>
+                            <li><span>Others</span><br>WordPress,Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="info-container">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./scr/project1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            
+              <h2 class="experience-sub-title project-title">Quiz Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/adithkrishnaa/Quiz.git/')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://adithkrishnaa.github.io/Quiz/')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            </div>
+            <div class="info-container">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./scr/Project2"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">E-shop</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/adithkrishnaa/E-shop.git/')"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+        </div>
+            </div>
+    </div>
+<div id="contact">
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./scr/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:sak162000@gmail.com">sak162000@gmail.comcom</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./scr/LInkedin.png" alt="LInkedin logo" class="icon" onclick="window.open('https://www.linkedin.com/in/adithkrishna-shanmugam-9bb870167/', '_blank');" />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+</div>
+<footer>
+    <nav >
+        <div class="bar">
+            <ul  class="nav-bar">
+                <li><a class="link" href="#About">About Me</a></li>
+                <li><a class="link" href="#projects">Projects</a></li>
+                <li><a class="link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Adithkrishna S. All Rights Reserved.</p>
+  </footer>
+
+    <script  >
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+    for
+    (tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for
+    (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    } 
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+</body>
+</html> 
